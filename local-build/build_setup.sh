@@ -6,7 +6,7 @@ start_time=$(date +%s)
 
 
 # --- CONFIGURABLE SETTINGS ---
-ENABLE_USB_LOGGING="false"                         # Set to "true" to enable USB logging
+ENABLE_USB_LOGGING="true"                         # Set to "true" to enable USB logging
 REPO_ROOT="${REPO_ROOT:-$PWD}"                     # path to original repo root
 SHIELD_PATH="${SHIELD_PATH:-boards/shields}"       # where shield folders live relative to repo root
 CONFIG_PATH="${CONFIG_PATH:-config}"               # where source keymaps/config live
