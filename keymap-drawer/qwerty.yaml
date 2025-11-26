@@ -1,7 +1,6 @@
 layout: {zmk_keyboard: qwerty}
 layers:
   Base:
-  - SEARCH
   - Q
   - W
   - E
@@ -12,8 +11,6 @@ layers:
   - I
   - O
   - P
-  - L_BASE L_GAME
-  - TAB
   - {t: A, h: LCMD}
   - {t: S, h: LALT}
   - {t: D, h: LSHFT}
@@ -24,8 +21,6 @@ layers:
   - {t: K, h: RSHFT}
   - {t: L, h: LALT}
   - {t: ;, h: RCMD}
-  - DEL
-  - CLIP HIST
   - Z
   - X
   - C
@@ -36,14 +31,17 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - /
+  - ESC SCRL SLOW
+  - SYM LCLK
+  - ENTER
+  - SPACE NAV
   - ESC SCRL SLOW
   - SYM LCLK
   - BS NUM
   - ENTER
   - SPACE NAV
+  - SPACE NAV
   Num:
-  - ''
   - ''
   - ''
   - ''
@@ -55,8 +53,6 @@ layers:
   - {t: '9', s: F9}
   - {t: '%', s: F10}
   - ''
-  - {t: ▽, type: trans}
-  - ''
   - ''
   - ''
   - BACK SPACE
@@ -67,8 +63,6 @@ layers:
   - {t: '6', s: F6}
   - {t: '*', s: F11}
   - ''
-  - ''
-  - ''
   - X
   - ''
   - ''
@@ -78,14 +72,17 @@ layers:
   - {t: '2', s: F2}
   - {t: '3', s: F3}
   - {t: ., s: F12}
-  - /
+  - ''
+  - ''
+  - '0'
+  - SPACE
   - ''
   - ''
   - {t: ▽, type: trans}
   - '0'
   - SPACE
+  - SPACE
   Nav:
-  - ''
   - WHEEL L
   - WHEEL D
   - ''
@@ -96,8 +93,6 @@ layers:
   - TMUX NEXT
   - TMUX SESH
   - TMUX SYNC
-  - ''
-  - TAB
   - BACK
   - LALT
   - LSHFT
@@ -108,8 +103,6 @@ layers:
   - DOWN
   - UP
   - RIGHT
-  - ''
-  - ''
   - MOVE L
   - MOVE D
   - MOVE UP
@@ -123,11 +116,14 @@ layers:
   - ''
   - ''
   - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
   - ''
   - ''
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Sym:
-  - ''
   - '~'
   - $
   - ^
@@ -138,8 +134,6 @@ layers:
   - '['
   - ']'
   - '%'
-  - \
-  - ''
   - _
   - <
   - '>'
@@ -150,8 +144,6 @@ layers:
   - (
   - )
   - '*'
-  - '|'
-  - ''
   - ~/
   - ''
   - '#'
@@ -162,56 +154,19 @@ layers:
   - '{'
   - '}'
   - '@'
-  - /
+  - ''
+  - ''
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Game:
-  - '1'
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - ''
   - ''
   - ''
   - ''
   - ''
   - {t: ▽, type: trans}
-  - '2'
-  - LCTRL
-  - A
-  - S
-  - D
-  - F
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '3'
-  - LSHFT
-  - Y
-  - X
-  - C
-  - V
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - SPACE
-  - LEFT ALT
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  Game: [TAB, Q, W, E, R, '', '', '', '', '', LCTRL, A, S, D, F, '', '', '', '', '', LSHFT, Y, X, C, V, '', '', '', '', '', '', SPACE, LEFT ALT, '', '', SPACE, LEFT
+      ALT, '', '', '']
   Xtra:
-  - ZMK Studio
   - SHRUG
   - LGTM
   - GIT COMMIT
@@ -222,8 +177,6 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - OUT TOG
-  - BT CLR
-  - SLEEP
   - sudo!!
   - ''
   - ''
@@ -234,8 +187,6 @@ layers:
   - PLAY PAUSE
   - STOP
   - NEXT
-  - ''
-  - LOCK
   - UNDO
   - CUT
   - COPY
@@ -246,6 +197,10 @@ layers:
   - VOLUME DOWN
   - VOLUME UP
   - PRINT SCREEN
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -293,9 +248,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   Scroll:
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
