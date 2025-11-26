@@ -32,6 +32,11 @@
 // #define SLOW    6
 // #define SCROLL  7
 
+    	// This is the code I added
+	chosen {
+		zephyr,console = &cdc_acm_uart;
+	};
+
     keymap {
         compatible = "zmk,keymap";
         BASE {
@@ -129,4 +134,13 @@
                                           >;
         };
     };
+};
+
+// Allow USB logging
+&usbd {
+	status = "okay";
+	cdc_acm_uart: cdc_acm_uart {
+		compatible = "zephyr,cdc-acm-uart";
+		label = "CDC_ACM_0";
+	};
 };
