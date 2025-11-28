@@ -27,7 +27,7 @@
 		, <&pro_micro 5 GPIO_ACTIVE_HIGH>
 		;
 
-		diode-direction = col2row
+		diode-direction = "col2row";
 };
 
 /* enable the listener on central */
