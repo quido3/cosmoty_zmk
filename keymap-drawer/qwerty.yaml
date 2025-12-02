@@ -35,12 +35,12 @@ layers:
   - SYM LCLK
   - ENTER
   - SPACE NAV
-  - ESC SCRL SLOW
+  - ZMK Studio
   - SYM LCLK
   - BS NUM
   - ENTER
   - SPACE NAV
-  - SPACE NAV
+  - ZMK Studio
   Num:
   - ''
   - ''
