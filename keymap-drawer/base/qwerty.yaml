@@ -47,31 +47,31 @@ layers:
   - UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - AGr+ 2
+  - Sft+ 3
+  - AGr+ 4
+  - Sft+ 5
+  - AGr+ K
   - TAB
   - LEFT
   - DOWN
   - RIGHT
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Sft+ }
+  - Sft+ 6
+  - AGr+ 7
+  - '='
+  - Ctl+ ?
+  - AGr+Sft+ 7
+  - Alt+ 9
+  - AGr+Sft+ 9
+  - AGr+ 9
+  - Sft+ INT1
+  - INT1
+  - AGr+ 8
+  - AGr+Sft+ 8
+  - Sft+ 8
+  - Sft+ 7
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOL UP
-  - ''
+  - Sft+ 7
   - '7'
   - '8'
   - '9'
@@ -98,7 +98,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOL DN
-  - ''
+  - 'Sft+ #'
   - '4'
   - '5'
   - '6'
