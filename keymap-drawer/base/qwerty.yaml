@@ -2,15 +2,15 @@ layout: {zmk_keyboard: qwerty}
 layers:
   Base:
   - Q
-  - W
-  - E
+  - D
   - R
-  - T
-  - Y
+  - W
+  - B
+  - J
+  - F
   - U
-  - I
-  - O
   - P
+  - ','
   - {t: A, h: LCMD}
   - {t: S, h: LALT}
   - {t: D, h: LSHFT}
@@ -35,12 +35,12 @@ layers:
   - SYM LCLK
   - ENTER
   - SPACE NAV
-  - ESC SCRL SLOW
+  - ZMK Studio
   - SYM LCLK
   - BS NUM
   - ENTER
   - SPACE NAV
-  - SPACE NAV
+  - ZMK Studio
   Num:
   - ''
   - ''
