@@ -14,19 +14,7 @@
         //     bindings = <&kp>, <&kp>;  // hold, tap
         // };
 
-        KC_LPAK: commaquest {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp QMARK>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-        };
 
-        KC_LPAKb: dotexc {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp DOT>, <&kp EXCL>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-        };
 
         mm_f1: num_or_f1 {
             compatible    = "zmk,behavior-mod-morph";
