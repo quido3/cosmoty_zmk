@@ -47,31 +47,31 @@ layers:
   - UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&no'
-  - '&no'
-  - '&no'
-  - '&no'
-  - '&no'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - TAB
   - LEFT
   - DOWN
   - RIGHT
   - {t: ▽, type: trans}
-  - '&no'
-  - '&no'
-  - '&no'
-  - '&no'
-  - '&no'
-  - '&no'
-  - '&no'
-  - '&no'
-  - '&no'
-  - '&no'
-  - '&no'
-  - '&no'
-  - '&no'
-  - '&no'
-  - '&no'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOL UP
-  - '&no'
+  - ''
   - '7'
   - '8'
   - '9'
@@ -98,7 +98,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOL DN
-  - '&no'
+  - ''
   - '4'
   - '5'
   - '6'
