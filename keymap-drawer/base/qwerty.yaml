@@ -34,7 +34,7 @@ layers:
   - Num
   - LSHFT
   - RSHFT
-  - '&mo 2 ├────────────────┼─────────────────┼───────────┤ ├─────────┼──────────────────┼──────────────────┤'
+  - Nav
   - LCTRL
   - LGUI
   - BS NUM
@@ -75,7 +75,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mo 3 ├────────────────┼─────────────────┼───────────┤ ├─────────┼──────────────────┼──────────────────┤'
+  - Sym
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -116,7 +116,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&trans ├────────────────┼─────────────────┼───────────┤ ├─────────┼──────────────────┼──────────────────┤'
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DEL
@@ -154,10 +154,10 @@ layers:
   - F2
   - F3
   - F12
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&trans ├────────────────┼─────────────────┼───────────┤ ├─────────┼──────────────────┼──────────────────┤'
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
