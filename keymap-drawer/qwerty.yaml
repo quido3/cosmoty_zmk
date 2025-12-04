@@ -113,7 +113,7 @@ layers:
   - '2'
   - '3'
   - Sft+ 0
-  - {t: ▽, type: trans}
+  - Comb
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -155,8 +155,8 @@ layers:
   - F3
   - F12
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BOOT LDR
+  - BOOT LDR
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
