@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: qwerty}
 layers:
-  Base: [Q, D, R, W, B, J, F, U, P, ',', A, S, H, T, G, Y, E, E, O, I, Z, X, M, C, V, K, L, '', I, I, ESC SCRL SLOW, SYM LCLK, ENTER, SPACE NAV, ZMK Studio, SYM LCLK,
+  Base: [Q, D, R, W, B, J, F, U, P, ',', A, S, H, T, G, Y, E, E, O, I, Z, X, M, C, V, K, L, E, I, I, ESC SCRL SLOW, SYM LCLK, ENTER, SPACE NAV, ZMK Studio, SYM LCLK,
     BS NUM, ENTER, SPACE NAV, ZMK Studio]
   Num:
   - ''
