@@ -1,46 +1,7 @@
 layout: {zmk_keyboard: qwerty}
 layers:
-  Base:
-  - Q
-  - D
-  - R
-  - W
-  - B
-  - J
-  - F
-  - U
-  - P
-  - LSHFT(COMMA)
-  - A
-  - S
-  - H
-  - T
-  - G
-  - Y
-  - E
-  - E
-  - O
-  - I
-  - Z
-  - X
-  - M
-  - C
-  - V
-  - K
-  - L
-  - ''
-  - {t: ',', s: '?'}
-  - {t: ., s: '!'}
-  - ESC SCRL SLOW
-  - SYM LCLK
-  - ENTER
-  - SPACE NAV
-  - ZMK Studio
-  - SYM LCLK
-  - BS NUM
-  - ENTER
-  - SPACE NAV
-  - ZMK Studio
+  Base: [Q, D, R, W, B, J, F, U, P, LSHFT(COMMA), A, S, H, T, G, Y, E, E, O, I, Z, X, M, C, V, K, L, '', I, I, ESC SCRL SLOW, SYM LCLK, ENTER, SPACE NAV, ZMK Studio,
+    SYM LCLK, BS NUM, ENTER, SPACE NAV, ZMK Studio]
   Num:
   - ''
   - ''
