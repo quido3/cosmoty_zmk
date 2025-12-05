@@ -6,8 +6,8 @@ layers:
   - R
   - W
   - B
-  - J
   - F
+  - J
   - U
   - P
   - Sft+ ,
@@ -124,7 +124,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Comb:
-  - {t: ▽, type: trans}
+  - ZMK Studio
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
