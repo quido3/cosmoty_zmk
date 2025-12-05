@@ -37,7 +37,7 @@ layers:
   - Num
   - LCTRL
   - LGUI
-  - BS NUM
+  - BSPC
   - SPACE
   - RGUI
   - RCTRL
