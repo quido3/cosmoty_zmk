@@ -7,7 +7,7 @@
         KC_LPAK: commaquest {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp QMARK>;
+            bindings = <&kp COMMA>, <&kp LS(MINUS)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
