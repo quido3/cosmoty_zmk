@@ -30,7 +30,7 @@ layers:
   - L
   - {t: ',', s: Sft+ -}
   - {t: ., s: '!'}
-  - {t: '#', s: Ctl+Alt+ 6}
+  - {t: '#', s: AGr+ 6}
   - Func
   - LSHFT
   - RSHFT
