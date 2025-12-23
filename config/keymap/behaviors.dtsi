@@ -28,7 +28,7 @@
         KC_LPAKd: stuffstuff2 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp LS(COMMA)>, <&kp LC(EXCL)>;
+            bindings = <&kp LS(COMMA)>, <&kp LS(DOT)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
