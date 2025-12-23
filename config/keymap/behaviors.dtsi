@@ -24,5 +24,12 @@
             bindings = <&kp NUHS>, <&kp DOUBLE_QUOTES>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        KC_LPAKd: stuffstuff2 {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp LS(COMMA)>, <&kp LS(EXCL)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 };
