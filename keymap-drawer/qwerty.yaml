@@ -10,7 +10,7 @@ layers:
   - F
   - U
   - P
-  - ','
+  - KC LPAKd
   - A
   - S
   - H
@@ -30,7 +30,7 @@ layers:
   - L
   - {t: ',', s: Sft+ -}
   - {t: ., s: '!'}
-  - {t: '#', s: '"'}
+  - {t: '#', s: Ctl+Alt+ 6}
   - Func
   - LSHFT
   - RSHFT
