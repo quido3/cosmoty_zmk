@@ -10,7 +10,7 @@ layers:
   - F
   - U
   - P
-  - KC LPAKd
+  - {t: 'Sft+ ,', s: Sft+ .}
   - A
   - S
   - H
