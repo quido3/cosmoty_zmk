@@ -21,14 +21,14 @@
         KC_LPAKc: stuffstuff {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp NUHS>, <&kp DOUBLE_QUOTES>;
+            bindings = <&kp NUHS>, <&kp LC(LA(N6))>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         KC_LPAKd: stuffstuff2 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp LS(COMMA)>, <&kp LS(EXCL)>;
+            bindings = <&kp LS(COMMA)>, <&kp LC(EXCL)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
