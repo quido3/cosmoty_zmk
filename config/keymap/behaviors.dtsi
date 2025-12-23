@@ -21,7 +21,7 @@
         KC_LPAKc: stuffstuff {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp NUHS>, <&kp RA(N6)>;
+            bindings = <&kp NUHS>, <&kp LS(N2)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
